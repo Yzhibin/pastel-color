@@ -1,6 +1,6 @@
 {
   "name": "pastel-color",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Generate a pastel color based on a string value",
   "main": "dist/index.js",
   "scripts": {
@@ -21,5 +21,6 @@
     "prettier": "^2.2.1",
     "webpack": "^5.25.0",
     "webpack-cli": "^4.5.0"
-  }
+  },
+  "repository": "github:Yzhibin/pastel-color"
 }
