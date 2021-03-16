@@ -1,0 +1,25 @@
+{
+  "name": "pastel-color",
+  "version": "1.0.0",
+  "description": "Generate a pastel color based on a string value",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "yarn build && mocha --require @babel/register test/",
+    "format": "prettier --write '(src|test)/**/*.js'",
+    "prepublish": "webpack --mode production"
+  },
+  "author": "Yu Zhibin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "babel-loader": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "prettier": "^2.2.1",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
